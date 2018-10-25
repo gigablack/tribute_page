@@ -1,0 +1,40 @@
+#main {
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 1%;
+    display: grid;
+    justify-content: center;
+}
+
+#img-div {
+    display: grid;
+    grid-template-areas:
+    "image"
+    "caption";
+    justify-items: center;
+    background-color: white;
+    padding: 50px;
+}
+
+#image {
+    grid-area: image;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    grid-area: caption;
+    margin-top: 10px;
+}
+
+#title {
+    text-align: center;
+}
+
+#tribute-info {
+    display: grid;
+    justify-content: center;
+}
+
+li {
+    margin-bottom: 2em;
+}
